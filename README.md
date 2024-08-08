@@ -50,7 +50,7 @@ Stages
 
 
 ### Challenges
-On top of being familiar with RNASeq analysis and the software tools that are used to perform the tasks, additional time must be spent on learning the Nextflow system. While time consuming, See an example of how a Nextflow workflow is organized.
+On top of being familiar with RNASeq analysis and the software tools that are used to perform the tasks, additional time must be spent on learning the Nextflow system. While time consuming, the benefits of efficiency should outweigh the costs in the long term. See an example of how a Nextflow workflow is organized.
 
 One of the many intricacies of AAFC’s HPC is that the compute nodes responsible for heavy workload do not have online internet access. Nextflow’s default settings assume internet access is available, which it uses to download assets like docker containers.
 ### Next Steps
