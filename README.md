@@ -63,11 +63,6 @@ Stages
 ![image](https://github.com/ediconchan/BIO2_Symposium_Poster_2024/blob/main/eay02030.pathview.png)
 ![image](https://github.com/ediconchan/BIO2_Symposium_Poster_2024/blob/main/eay02040.pathview.png)
 ![image](https://github.com/ediconchan/BIO2_Symposium_Poster_2024/blob/main/eay03010.pathview.png)
-![image](https://github.com/ediconchan/BIO2_Symposium_Poster_2024/blob/main/report-resource-cpu.png)
-![image](https://github.com/ediconchan/BIO2_Symposium_Poster_2024/blob/main/report-resource-job-duration.png)
-
-![image](https://github.com/user-attachments/assets/c2b04560-5114-4a2c-bbea-44a39e9d74d1)
-
 
 
 ### Challenges
@@ -79,6 +74,11 @@ One of the many intricacies of AAFC’s HPC is that the compute nodes responsibl
 While half of the subworkflows have already been completed, the remaining subworkflows need to be finished. Many of the subworkflows also need to have some components modularized before it can be initialized.
 
 Like most machine learning models, AlphaFold2 will require GPU utilization to efficiently perform computational tasks. Extra effort will be needed incorporate an AlphaFold2 container into a Nextflow module and determine AAFC’s GPU allocation rules on its HPC.
+
+The Nextflow pipeline's efficiency will also be evaluated.
+Nextflow offers metric evaluating tools
+![image](https://github.com/ediconchan/BIO2_Symposium_Poster_2024/blob/main/report-resource-cpu.png)
+![image](https://github.com/ediconchan/BIO2_Symposium_Poster_2024/blob/main/report-resource-job-duration.png)
 
 
 ### Acknowledgements
