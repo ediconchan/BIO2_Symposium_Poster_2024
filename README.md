@@ -63,5 +63,18 @@ Like most machine learning models, AlphaFold2 will require GPU utilization to ef
 I would like to thank my advisors, Dion Lepp, Lewis Lukens, and Khurram Nadeem. Special thanks to Dion Lepp and Agriculture and Agri-Food Canada for providing the degust and clusterProfiler visualizations for the poster, as well as conceiving and funding the project. I also would like to thank Cynthia Du for designing the University of Guelph Bioinformatics logo and providing it for use.
 
 ### References
+1. 	Kukurba KR, Montgomery SB. 2015. RNA sequencing and analysis. Cold Spring Harb Protoc 2015. 
+2. 	Simoneau J, Dumontier S, Gosselin R, Scott MS. 2021. Current RNA-seq methodology reporting limits reproducibility. Brief Bioinform https://doi.org/10.1093/bib/bbz124. 
+3. 	Lataretu M, Hölzer M. 2020. Rnaflow: An effective and simple rna-seq differential gene expression pipeline using nextflow. Genes (Basel) 11. 
+4. 	Chalifa-Caspi V. 2021. RNA-Seq in Nonmodel Organisms Methods in Molecular Biology. 
+5. 	Di Tommaso P, Chatzou M, Floden EW, Barja PP, Palumbo E, Notredame C. 2017. Nextflow enables reproducible computational workflows. Nat Biotechnol https://doi.org/10.1038/nbt.3820. 
+6. 	Ma T, Zhang A. 2017. Omics Informatics: From Scattered Individual Software Tools to Integrated Workflow Management Systems. IEEE/ACM Trans Comput Biol Bioinform 14. 
+
+![image](https://github.com/ediconchan/BIO2_Symposium_Poster_2024/blob/main/eay00500.pathview.png)
+![image](https://github.com/ediconchan/BIO2_Symposium_Poster_2024/blob/main/eay02030.pathview.png)
+![image](https://github.com/ediconchan/BIO2_Symposium_Poster_2024/blob/main/eay02040.pathview.png)
+![image](https://github.com/ediconchan/BIO2_Symposium_Poster_2024/blob/main/eay03010.pathview.png)
+![image](https://github.com/ediconchan/BIO2_Symposium_Poster_2024/blob/main/report-resource-cpu.png)
+![image](https://github.com/ediconchan/BIO2_Symposium_Poster_2024/blob/main/report-resource-job-duration.png)
 
 ![image](https://github.com/user-attachments/assets/c2b04560-5114-4a2c-bbea-44a39e9d74d1)
