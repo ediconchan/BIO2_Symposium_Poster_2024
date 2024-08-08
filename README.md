@@ -48,6 +48,27 @@ Stages
 3.	Annotation subworkflow framework completed. Still needs to be tested as part of the larger workflow.
 4.	A R script that utilizes the degust package for differential gene expression analysis has been incorporated into a module.
 
+#### Degust
+[EXAMPLE OF DEGUST WEB APPLICATION](https://degust.erc.monash.edu/degust/compare.html?code=example#/)
+
+#### Clusterprofiler
+![image](https://github.com/ediconchan/BIO2_Symposium_Poster_2024/blob/main/GO_biological_process_network.png)
+![image](https://github.com/ediconchan/BIO2_Symposium_Poster_2024/blob/main/GO_molecular_function_upset.png)
+![image](https://github.com/ediconchan/BIO2_Symposium_Poster_2024/blob/main/kegg_ora_barplot.png)
+
+
+
+#### Pathway Analysis
+![image](https://github.com/ediconchan/BIO2_Symposium_Poster_2024/blob/main/eay00500.pathview.png)
+![image](https://github.com/ediconchan/BIO2_Symposium_Poster_2024/blob/main/eay02030.pathview.png)
+![image](https://github.com/ediconchan/BIO2_Symposium_Poster_2024/blob/main/eay02040.pathview.png)
+![image](https://github.com/ediconchan/BIO2_Symposium_Poster_2024/blob/main/eay03010.pathview.png)
+![image](https://github.com/ediconchan/BIO2_Symposium_Poster_2024/blob/main/report-resource-cpu.png)
+![image](https://github.com/ediconchan/BIO2_Symposium_Poster_2024/blob/main/report-resource-job-duration.png)
+
+![image](https://github.com/user-attachments/assets/c2b04560-5114-4a2c-bbea-44a39e9d74d1)
+
+
 
 ### Challenges
 On top of being familiar with RNASeq analysis and the software tools that are used to perform the tasks, additional time must be spent on learning the Nextflow system. While time consuming, the benefits of efficiency should outweigh the costs in the long term. See an example of how a Nextflow workflow is [organized](https://github.com/nf-core/rnaseq)
@@ -59,6 +80,7 @@ While half of the subworkflows have already been completed, the remaining subwor
 
 Like most machine learning models, AlphaFold2 will require GPU utilization to efficiently perform computational tasks. Extra effort will be needed incorporate an AlphaFold2 container into a Nextflow module and determine AAFC’s GPU allocation rules on its HPC.
 
+
 ### Acknowledgements
 I would like to thank my advisors, Dion Lepp, Lewis Lukens, and Khurram Nadeem. Special thanks to Dion Lepp and Agriculture and Agri-Food Canada for providing the degust and clusterProfiler visualizations for the poster, as well as conceiving and funding the project. I also would like to thank Cynthia Du for designing the University of Guelph Bioinformatics logo and providing it for use.
 
@@ -69,12 +91,3 @@ I would like to thank my advisors, Dion Lepp, Lewis Lukens, and Khurram Nadeem. 
 4. 	Chalifa-Caspi V. 2021. RNA-Seq in Nonmodel Organisms Methods in Molecular Biology. 
 5. 	Di Tommaso P, Chatzou M, Floden EW, Barja PP, Palumbo E, Notredame C. 2017. Nextflow enables reproducible computational workflows. Nat Biotechnol https://doi.org/10.1038/nbt.3820. 
 6. 	Ma T, Zhang A. 2017. Omics Informatics: From Scattered Individual Software Tools to Integrated Workflow Management Systems. IEEE/ACM Trans Comput Biol Bioinform 14. 
-
-![image](https://github.com/ediconchan/BIO2_Symposium_Poster_2024/blob/main/eay00500.pathview.png)
-![image](https://github.com/ediconchan/BIO2_Symposium_Poster_2024/blob/main/eay02030.pathview.png)
-![image](https://github.com/ediconchan/BIO2_Symposium_Poster_2024/blob/main/eay02040.pathview.png)
-![image](https://github.com/ediconchan/BIO2_Symposium_Poster_2024/blob/main/eay03010.pathview.png)
-![image](https://github.com/ediconchan/BIO2_Symposium_Poster_2024/blob/main/report-resource-cpu.png)
-![image](https://github.com/ediconchan/BIO2_Symposium_Poster_2024/blob/main/report-resource-job-duration.png)
-
-![image](https://github.com/user-attachments/assets/c2b04560-5114-4a2c-bbea-44a39e9d74d1)
